@@ -5,13 +5,14 @@ const Charecters = ({characters}) => {
         <div className="row">
             {characters.map((item, index) => (
                 <div key={index} className="col mb-4">
-                    <div className="card" style={{minWidth:"100px"}}>
+                    <div className="card" style={{minWidth:"50px"}}>
                         <img src={item.image} alt=""/>
                         <div className="card-body">
                             <h5 className="card-title">{item.name}</h5>
                             <hr/>
-                            <p>Locación: {item.location.name}</p>
                             <p>Especie: {item.species}</p>
+                            <p>Genero: {item.gender}</p>
+                            <p>Locación: {item.location.name}</p>
 
                         </div>
                     </div>
