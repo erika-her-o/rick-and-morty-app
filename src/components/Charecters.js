@@ -12,6 +12,7 @@ const Charecters = ({characters}) => {
                             <hr/>
                             <p>Especie: {item.species}</p>
                             <p>Genero: {item.gender}</p>
+                            <p>Estado: {item.status}</p>
                             <p>Locación: {item.location.name}</p>
 
                         </div>
